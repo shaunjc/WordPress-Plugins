@@ -1,0 +1,4 @@
+# Do not allow direct/external access to any files.
+# Load index.php file to redirect home where possible.
+RewriteEngine On
+RewriteRule ^.*$ index.php

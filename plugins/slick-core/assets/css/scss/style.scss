@@ -1,0 +1,9 @@
+/* WordPress fixes */
+
+// text-decoration instead of u element.
+[style*="text-decoration:underline"],
+[style*="text-decoration: underline"] {
+    // Remove underline
+    text-decoration: none ! important;
+    /* Other styles here */
+}
